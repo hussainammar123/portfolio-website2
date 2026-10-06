@@ -3,7 +3,7 @@ export const profile = {
   role: 'Python Developer',
   email: 'hussainammar252@gmail.com',
   whatsapp: 'https://wa.me/917004487390',
-  location: 'Hyderabad, India',
+  location: 'Bihar, India',
   github: 'https://github.com/hussainammar123',
   linkedin: 'https://linkedin.com/in/hussain-ammar-8208b31a9',
   graduationYear: '2026',
@@ -56,7 +56,7 @@ export const skillGroups = [
   {
     number: '01',
     title: 'Languages',
-    skills: ['Python', 'Java', 'JavaScript'],
+    skills: ['Python', 'java', 'JavaScript'],
   },
   {
     number: '02',
@@ -95,7 +95,11 @@ export function getAnswer(question: string) {
   }
 
   if (/who|about|hussain|background|introduce|hello|hi\b/.test(text)) {
-    return 'I’m Hussain Ammar, a Python developer and Information Technology graduate based in Hyderabad. I enjoy turning data and machine-learning ideas into practical projects, and I’m looking for opportunities to keep learning and contribute.'
+    return `Hi, I’m Hussain Ammar, a software developer with a strong interest in building practical, scalable, and user-focused applications. I work with technologies such as Python, JavaScript, React, HTML, CSS, and backend frameworks, and I enjoy turning ideas into functional products.
+
+I’ve worked on projects involving web development, APIs, databases, AI-powered applications, and automation, which has helped me develop a strong problem-solving mindset and an understanding of end-to-end application development.
+
+I’m currently looking for opportunities where I can contribute to real-world projects, strengthen my engineering skills, and grow with a team that values learning, innovation, and impactful work.`
   }
 
   return 'I can tell you about Hussain’s background, projects, technical skills, education, or how to get in touch. What would you like to know?'

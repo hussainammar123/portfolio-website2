@@ -13,8 +13,8 @@ function Hero() {
         <div className="availability"><span /> OPEN TO OPPORTUNITIES <span className="availability-line" /></div>
         <h1><span className="hero-title-accent">PYTHON</span><br />DEVELOPER</h1>
         <p className="hero-description">
-          Hi, I’m <strong>Hussain</strong>. An Information Technology graduate
-          who loves building useful things with Python, data, and machine learning.
+          Hi, I’m <strong>Hussain</strong>.An Information Technology graduate
+              who loves building modern, responsive, and user-friendly web experiences.
         </p>
         <div className="hero-actions">
           <a
