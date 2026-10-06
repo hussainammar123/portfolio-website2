@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" fill="none">
+  <defs>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(260 200 -200 260 163 142)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#163820"/>
+      <stop offset="1" stop-color="#111411"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="80" y1="80" x2="423" y2="433" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9DFFB9"/>
+      <stop offset=".5" stop-color="#00ED64"/>
+      <stop offset="1" stop-color="#12813D"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <circle cx="250" cy="250" r="213" fill="#00ED64" fill-opacity=".09" filter="url(#blur)"/>
+  <circle cx="250" cy="250" r="195" fill="url(#glow)" stroke="url(#ring)" stroke-width="2"/>
+  <circle cx="250" cy="250" r="174" stroke="#9DFFB9" stroke-opacity=".32" stroke-dasharray="2 12"/>
+  <text x="250" y="341" fill="#00ED64" font-family="Arial, sans-serif" font-size="270" font-weight="700" text-anchor="middle">H</text>
+  <path d="M315 117h27" stroke="#9DFFB9" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="397" cy="122" r="7" fill="#9DFFB9"/>
+  <circle cx="106" cy="366" r="5" fill="#00ED64"/>
+</svg>
