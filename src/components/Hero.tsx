@@ -36,7 +36,7 @@ function Hero() {
       <div className="hero-visual" aria-label="Hussain Ammar's monogram avatar">
         <div className="portrait-halo" />
         <div className="portrait-frame">
-          <img src="/avatar.svg" alt="Hussain Ammar monogram avatar" className="portrait-image" />
+          <img src={`${import.meta.env.BASE_URL}avatar.svg`} alt="Hussain Ammar monogram avatar" className="portrait-image" />
           <span className="portrait-caption">HU · PYTHON DEVELOPER</span>
         </div>
         <div className="orbit orbit-one" />
